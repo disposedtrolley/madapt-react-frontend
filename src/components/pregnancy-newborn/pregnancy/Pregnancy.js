@@ -27,7 +27,7 @@ class Pregnancy extends Component {
   }
   render() {
     return (
-      <div>
+      <div className="wrapper">
       <h1>CARE DURING PREGNANCY</h1>
       <p>Pregnancy can be both an exciting and stressful time for women and their families.</p>
       <p>Understanding what to expect helps reduce anxiety and fear surrounding childbirth and motherhood.</p>

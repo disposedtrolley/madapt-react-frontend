@@ -108,7 +108,7 @@ class Birth extends Component {
   }
   render() {
     return (
-      <div>
+      <div className="wrapper">
       <h1>Birth</h1>
       <p>Most women give birth between 38 and 42 weeks of pregnancy. If you have your baby before this time, your baby may need to be placed in the special care nursery or newborn intensive care centre (NICU) until for more specialised care.</p>
       <p>Some women will feel like they are having contractions from 34 weeks of pregnancy but most don’t go into labour until around 38 weeks.</p>

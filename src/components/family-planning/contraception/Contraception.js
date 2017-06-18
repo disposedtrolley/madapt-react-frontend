@@ -38,7 +38,7 @@ class Contraception extends Component {
       <h1>Contraception</h1>
         <div className="content">
           <p>There are many contraceptive methods available in Australia, including implants and injections, intrauterine devices (IUDs, both copper and hormonal), emergency contraception, pills and vaginal rings, barrier methods (male and female condoms and diaphragms), female and male sterilisation and natural methods (natural family planning).</p>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/Zx8zbTMTncs" frameborder="0" allowfullscreen></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/Zx8zbTMTncs" frameBorder="0" allowFullScreen></iframe>
         </div>
         <Tabs items={this.getTabs()} />
       </div>

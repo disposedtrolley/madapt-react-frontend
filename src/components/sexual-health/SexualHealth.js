@@ -13,12 +13,16 @@ class SexualHealth extends Component {
     return (
       <CardGrid>
         <Card
-          imgSrc={iconSTI}
-          titleText="STI's"
-          linkUrl="#" />
+          imgSrc="https://image.flaticon.com/icons/png/512/33/33777.png"
+          titleText="Healthy Relationships"
+          linkUrl="/sexual-health/healthy-relationships" />
         <Card
-          imgSrc={iconHIV}
-          titleText="HIV & Aids"
+          imgSrc="https://image.flaticon.com/icons/png/512/33/33777.png"
+          titleText="Safe sex"
+          linkUrl="/sexual-health/safe-sex" />
+        <Card
+          imgSrc={iconSTI}
+          titleText="STI's/ HIV"
           linkUrl="#" />
         <Card
           imgSrc="https://image.flaticon.com/icons/png/512/33/33777.png"
@@ -27,14 +31,6 @@ class SexualHealth extends Component {
         <Card
           imgSrc="https://image.flaticon.com/icons/png/512/33/33777.png"
           titleText="Disability"
-          linkUrl="#" />
-        <Card
-          imgSrc="https://image.flaticon.com/icons/png/512/33/33777.png"
-          titleText="Safe sex"
-          linkUrl="#" />
-        <Card
-          imgSrc="https://image.flaticon.com/icons/png/512/33/33777.png"
-          titleText="Services"
           linkUrl="#" />
       </CardGrid>
     )

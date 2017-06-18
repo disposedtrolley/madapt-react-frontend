@@ -11,7 +11,7 @@ class AustralianNorms extends Component {
   }
   render() {
     return (
-      <div>
+      <div className="wrapper">
       <h1>AustralianNorms</h1>
       <p>Family doctors in Australia are also called General Practitioner (GP).
 
