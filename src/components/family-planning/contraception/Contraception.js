@@ -11,9 +11,8 @@ class Contraception extends Component {
     super(props)
     this.state = {
       data: [
-        {name: 'Male Condom', biography: '1Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.'},
-        {name: 'Female Condom', biography: '2Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.'},
-        {name: 'The Pill', biography: '3Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.'},
+        {name: 'Hormonal Implants', info: 'Implants are small, flexible rods or capsules placed under the skin of the upper arm. They contain a progestogen-only hormone which helps thicken cervical mucous and blocks the sperm and egg from meeting and prevents ovulation. They are effective in preventing pregnancy in over 99% of cases but do not protect against sexually transmitted infections or HIV. For this you need to use condoms. Hormonal implants need to be inserted by a trained professional and can be used for 3-5 years depending on the brand. A small percentage of women will experience irregular bleeding but many will stop having periods altogether. •	Once the implant is removed or expires, you can get pregnant immediately.'},
+        {name: 'Where to access?', info: 'Find a family planning service provider to discuss your options.  More Info https://www.thewomens.org.au/health-information/contraception/contraceptive-implants/ http://www.arhp.org/publications-and-resources/patient-resources/fact-sheets/single-rod https://www.plannedparenthood.org/learn/birth-control/birth-control-implant-implanon'},
       ]
     } 
     this.getTabs = this.getTabs.bind(this)
@@ -28,7 +27,7 @@ class Contraception extends Component {
       tabClassName: 'tab', // Optional
       panelClassName: 'panel', // Optional
       title: item.name,
-      getContent: () => item.biography,
+      getContent: () => item.info,
     }));
   }
 
