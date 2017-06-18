@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Grid, Row, Col } from 'flexbox-react';
 import './BirthSpacing.css'
 
 class BirthSpacing extends Component {

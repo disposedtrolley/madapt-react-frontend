@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Grid, Row, Col } from 'flexbox-react';
 import Tabs from 'react-responsive-tabs';
 import './Contraception.css'
 import 'react-responsive-tabs/styles.css'
