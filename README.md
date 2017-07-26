@@ -24,4 +24,4 @@ This has anonymised Amazon Web Services credentials -- do not change these.
 
 Travis currently runs tests, compiles down to optimised JS, and sends these to a public S3 bucket. The deployed site can then be accessed [here](http://madapt.s3-website-ap-southeast-2.amazonaws.com/).
 
-Only master is built and deployed. It will not deploy if it does not build, so check `npm run build` locally and fix any errors before merging to master.
+Only master is built and deployed. dIt will not deploy if it does not build, so check `npm run build` locally and fix any errors before merging to master.
